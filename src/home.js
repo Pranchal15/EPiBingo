@@ -26,13 +26,13 @@ const tilesData = [
   "Python",
   "NLP",
   "Computer Vision",
-  "Tensor Flow",
+  "Sarcasm",
   "Data",
   "Kaggle",
   "Pandas",
   "NumPy",
   "META",
-  "Instagram",
+  "Netflix",
   "Neural Networks",
   "Artificial Intelligence",
   "",
@@ -47,7 +47,7 @@ const tilesData = [
   "Django",
   "Cloud",
   "Blockchain",
-  "Crypto Currency",
+"Ms.Chanandler Bong"
 
 
 ];
