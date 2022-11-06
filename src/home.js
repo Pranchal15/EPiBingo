@@ -109,7 +109,7 @@ export default function Home() {
           >
           {id ===12 ?
         
-            <img src='./Epi_logo.png' alt="logo"  ></img> : data[id]
+            <img src='./public/Epi_logo.png' alt="logo"  ></img> : data[id]
           }
             
           </Tile>

@@ -61,12 +61,12 @@ export function start() {
   
       let particle = {};
 
-      for ( i = 0; i < maxConfettis; i++) {
-        particle = particles[i];
+      for ( var j = 0; j < maxConfettis; j++) {
+        particle = particles[j];
   
         particle.tiltAngle += particle.tiltAngleIncremental;
         particle.y += (Math.cos(particle.d) + 3 + particle.r / 2) / 2;
-        particle.tilt = Math.sin(particle.tiltAngle - i / 3) * 15;
+        particle.tilt = Math.sin(particle.tiltAngle - j / 3) * 15;
   
         if (particle.y <= H) 
   
@@ -94,7 +94,7 @@ export function start() {
     );
   
     // Push new confetti objects to `particles[]`
-    for ( i = 0; i < maxConfettis; i++) {
+    for ( var k = 0; k < maxConfettis; k++) {
       particles.push(new confettiParticle());
     }
   
