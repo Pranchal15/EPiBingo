@@ -92,8 +92,6 @@ export default function Home() {
   return (
     <div >
 <p className="title">MACHINE LEARNING BINGO</p>
-
-
     <div className="appcontainer">
       {/* <h1 className="title">Bingo</h1> */}
       {/* <p className="title">BINGO</p> */}
@@ -107,9 +105,9 @@ export default function Home() {
             isSet={!!state.checked[id]}
             onToggle={() => toggle(id)}
           >
-          {id ===12 ?
+          {id ==='12' ?
         
-            <img src='./public/Epi_logo.png' alt="logo"  ></img> : data[id]
+            <img src='./Epi_logo.png' alt="logo"  ></img> : data[id]
           }
             
           </Tile>
