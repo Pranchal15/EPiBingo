@@ -6,7 +6,7 @@ export default function Congrats() {
     <div>
       <p className='message'>
         Congratulations!!
-        You are ready to dive deep into the world of machine learning... 
+        You are ready to dive deep into the world of machine learning :p
       </p>
     </div>
   )

@@ -61,7 +61,7 @@ export default function Home() {
   const [state, setState] = useState({ checked: {} });
   const [count,setcount] = useState(0);
   const isWon = checked => {
-    if (count > 3)
+    if (count > 5)
     {
         return true;
     }
@@ -110,7 +110,7 @@ export default function Home() {
           >
           {id ==12 ?
         
-            <img src='./imagee.png'  ></img> : data[id]
+            <img src='./Epi_logo.png'  ></img> : data[id]
           }
             
           </Tile>
