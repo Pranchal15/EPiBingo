@@ -60,15 +60,15 @@ export function start() {
       }
   
       let particle = {};
-      let remainingFlakes = 0;
-      for (var i = 0; i < maxConfettis; i++) {
+
+      for ( i = 0; i < maxConfettis; i++) {
         particle = particles[i];
   
         particle.tiltAngle += particle.tiltAngleIncremental;
         particle.y += (Math.cos(particle.d) + 3 + particle.r / 2) / 2;
         particle.tilt = Math.sin(particle.tiltAngle - i / 3) * 15;
   
-        if (particle.y <= H) remainingFlakes++;
+        if (particle.y <= H) 
   
         // If a confetti has fluttered out of view,
         // bring it back to above the viewport and let if re-fall.
@@ -94,7 +94,7 @@ export function start() {
     );
   
     // Push new confetti objects to `particles[]`
-    for (var i = 0; i < maxConfettis; i++) {
+    for ( i = 0; i < maxConfettis; i++) {
       particles.push(new confettiParticle());
     }
   

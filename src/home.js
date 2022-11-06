@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import ReactDOM from "react-dom";
 import Congrats from "./congrats";
 // import shuffle from "shuffle-array";
 
@@ -108,9 +107,9 @@ export default function Home() {
             isSet={!!state.checked[id]}
             onToggle={() => toggle(id)}
           >
-          {id ==12 ?
+          {id ===12 ?
         
-            <img src='./Epi_logo.png'  ></img> : data[id]
+            <img src='./Epi_logo.png' alt="logo"  ></img> : data[id]
           }
             
           </Tile>
