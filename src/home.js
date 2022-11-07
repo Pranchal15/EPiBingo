@@ -91,7 +91,8 @@ export default function Home() {
 
   return (
     <div >
-<p className="title">MACHINE LEARNING BINGO</p>
+<p className="title">MACHINE LEARNING</p>
+<p className="bingo"  style = {{backgroundImage: 'linear-gradient(to right, rgba(102, 126, 234, 0.5), rgba(118, 75, 162, 0.5))'}}>BINGO</p>
     <div className="appcontainer">
       {/* <h1 className="title">Bingo</h1> */}
       {/* <p className="title">BINGO</p> */}
